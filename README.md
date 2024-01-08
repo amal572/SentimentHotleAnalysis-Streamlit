@@ -9,8 +9,8 @@
 ## About
 **A sentiment analysis application built using Streamlit( An open source framework to build web applications in python )**
 
-Sentiment Analysis is one of the most famous applications of Natural Language Processing. Wherever data is present, we can apply it. It applies to all types of data, from text to audio to video to image. Data in any form can be processed to get sentiments out of it.
-The objective of the project is to create a web application which will Analysis Hotel Reviews.
+A sentiment analysis application constructed using Streamlit (an open-source framework for building web applications in Python).
+Sentiment analysis stands as one of the most renowned applications of Natural Language Processing, applicable to various forms of data—whether it be text, audio, video, or image. This project's goal is to develop a web application dedicated to analyzing hotel reviews.
 <br>
 
 
@@ -25,9 +25,9 @@ The objective of the project is to create a web application which will Analysis 
 
 ## Project Components
 
-**The project currently contains 2 applications :-**
+**The project currently contains 2 applications:-**
 1. **Text** - Applying sentiment analysis on text given by the user.
-2. **Hotel reviews** - We get review data based on Hotel Name Selected by user and process to obtain emotions of people regarding the Hotel.
+2. **Hotel reviews** - We get review data based on the Hotel Name Selected by the user and process to obtain the emotions of people regarding the Hotel.
 
 
 <br>
@@ -42,18 +42,18 @@ The objective of the project is to create a web application which will Analysis 
 <br>
 
 ## Models used
-There are multiple libraries available in python for sentiment analysis. Let's see them below 👇
+There are multiple libraries available in Python for sentiment analysis. Let's see them below 👇
 
 - **TextBlob** - TextBlob is a Python library for processing textual data. It provides a simple API for diving into common (NLP) tasks such as part-of-speech tagging, noun phrase extraction, sentiment analysis, classification, translation, and more.
-- **Flair** - A very simple framework for state-of-the-art NLP. It is a powerful NLP library which allows you to apply state-of-the-art natural language processing (NLP) models to your text, such as named entity recognition (NER), part-of-speech tagging (PoS), etc.
+- **Flair** - A very simple framework for state-of-the-art NLP. It is a powerful NLP library that allows you to apply state-of-the-art natural language processing (NLP) models to your text, such as named entity recognition (NER), part-of-speech tagging (PoS), etc.
 - **Vader** - VADER (Valence Aware Dictionary and Sentiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media. 
-- **text2emotion** - text2emotion is the python package which will help you to extract the emotions from the content. It processes any textual message and recognize the emotions embedded in it. It is compatible with 5 different emotion categories as Happy, Angry, Sad, Surprise and Fear.
+- **text2emotion** - text2emotion is the Python package that will help you extract the emotions from the content. It processes any textual message and recognizes the emotions embedded in it. It is compatible with 5 different emotion categories Happy, Angry, Sad, Surprise, and Fear.
 
 <br>
 
 *__Note :-__* 
-1. textblob, flair and vader provide polarity score where text is declared in either of 3 states (POSITIVE🙂, NEGATIVE☹️, NEUTRAL😐)
-2. text2emotion is the only library among the others mentioned above which can classify text in 5 emotion categories (HAPPY😊, ANGRY😡, SAD😔, SURPRISE😲, FEAR😨)
+1. textblob, flair, and Vader provide polarity scores where text is declared in either of 3 states (POSITIVE🙂, NEGATIVE☹️, NEUTRAL😐)
+2. text2emotion is the only library among the others mentioned above that can classify text into 5 emotion categories (HAPPY😊, ANGRY😡, SAD😔, SURPRISE😲, FEAR😨)
 
 <br>
 
@@ -63,7 +63,7 @@ There are multiple libraries available in python for sentiment analysis. Let's s
 - Tweets analysis using Twitter API
 - Sentiment analysis on Live video streaming
 - Sentiment analysis of Audio data
-- Sentiment analysis of data received from site given by user using web scraping in python.
+- Sentiment analysis of data received from the site given by the user using web scraping in Python.
 
 <br>
 
